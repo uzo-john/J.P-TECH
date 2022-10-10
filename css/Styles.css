@@ -4,10 +4,7 @@ body{
     text-align: center;
    
 }
-.container-fluid{
-    padding: 2rem ;
-    width: 200px;
-}
+
      
 .coloured-section{
      padding: 5rem 10rem;
@@ -132,8 +129,8 @@ h1,h2,h3{
 }
 .service-card{
     display: grid;
-    gap: 2rem;
-    padding:3rem;
+    gap: 30px;
+    padding:30px;
 }
     
  .service-icon{
@@ -143,14 +140,14 @@ h1,h2,h3{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    max-width: 12rem;
+    max-width: 165px;
     display: grid;
     margin-inline: auto;
     aspect-ratio: 1 / 1;
 }
 .service-text {
     text-align: center;
-    padding: 1rem 6rem;
+    padding: 10px 6px;
     color:rgb(12, 12, 75) ;
 }
 .btn {
@@ -175,7 +172,7 @@ h1,h2,h3{
 /* blog */
 .blog-section{
     background-color:#5f195f ;
-    padding: 3rem 5rem;
+    padding: 6% 10%;
     color: white;
 
 }
@@ -186,8 +183,8 @@ h1,h2,h3{
 }
 .blog-image{
     border-radius: 100%;
-    width: 30rem;
-    margin: 3rem;
+    width: 50%;
+    margin: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
