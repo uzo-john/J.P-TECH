@@ -2,7 +2,7 @@
 body{
     font-family:"montserrat";
     text-align: center;
-    /* overflow: hidden; */
+   
 }
 .container-fluid{
     padding: 2rem ;
@@ -10,8 +10,7 @@ body{
 }
      
 .coloured-section{
-     padding: 7% 15%; 
-     background-color:white;
+     padding: 5rem 10rem;
      background: linear-gradient(-45deg, #87A2FB, #992d99, #461446, #b490b4);
      animation: change 10s ease-in-out infinite;
 }
@@ -86,7 +85,7 @@ h1,h2,h3{
 }
 .title-image{
     border-radius: 100%;
-    width:30rem;
+    width:100%;
     position: relative;
     animation: waveanim 1s linear infinite alternate;  
 }
@@ -133,8 +132,8 @@ h1,h2,h3{
 }
 .service-card{
     display: grid;
-    gap: 30px;
-    padding:30px;
+    gap: 2rem;
+    padding:3rem;
 }
     
  .service-icon{
@@ -144,25 +143,20 @@ h1,h2,h3{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    max-width: 165px;
+    max-width: 12rem;
     display: grid;
     margin-inline: auto;
     aspect-ratio: 1 / 1;
 }
 .service-text {
     text-align: center;
-    padding: 10px 6px;
+    padding: 1rem 6rem;
     color:rgb(12, 12, 75) ;
 }
 .btn {
-    padding: 15px;
-    margin-inline: auto;
-    transition: 0.15s;
-    color: #863d86 ;
-    
+    margin-inline: auto;  
 } 
 .btn .icon{
-    /* margin-inline: auto; */
     border: 1px solid #863d86;
     border-radius: 50%;
     color: #863d86;
@@ -181,7 +175,7 @@ h1,h2,h3{
 /* blog */
 .blog-section{
     background-color:#5f195f ;
-    padding: 6% 10%;
+    padding: 3rem 5rem;
     color: white;
 
 }
@@ -192,8 +186,8 @@ h1,h2,h3{
 }
 .blog-image{
     border-radius: 100%;
-    width: 50%;
-    margin: 30px;
+    width: 30rem;
+    margin: 3rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -205,7 +199,7 @@ h1,h2,h3{
 }
 .slider{
     background-color:white;
-    /* height: 250px; */
+    
     margin: auto;
     position: relative;
     width: 90%;
@@ -229,8 +223,8 @@ h1,h2,h3{
     }
 }
 .slide{
-    /* height: 200px;
-    width: 200px; */
+
+    
     display: flex;
     align-items: center;
     padding: 20px;
@@ -305,7 +299,7 @@ h1,h2,h3{
 .social-icon{
     justify-content: center;
     display: flex;
-    gap: 30px;
+    gap: 3rem;
     margin:auto;
     width: 50%;
 }
