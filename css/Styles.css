@@ -7,7 +7,6 @@ body{
 
      
 .coloured-section{
-     padding: 5rem 10rem;
      background: linear-gradient(-45deg, #87A2FB, #992d99, #461446, #b490b4);
      animation: change 10s ease-in-out infinite;
 }
@@ -41,7 +40,7 @@ h1,h2,h3{
 }
 
 .container{
-    padding: 4rem 0 8rem;
+    padding: 8rem 0 8rem;
     color:white;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -220,8 +219,6 @@ h1,h2,h3{
     }
 }
 .slide{
-
-    
     display: flex;
     align-items: center;
     padding: 20px;
@@ -237,11 +234,14 @@ h1,h2,h3{
 .media img:hover{
     transform: translateZ(20px);
 }
-.part{
-    display: flex;
+#Feature p{
+   text-align:center;
 } 
 .feature-icon {
-    margin: 2rem 1rem;  
+    margin:0 10rem;
+}
+#Feature .container-fluid{
+    padding: 7% 3%;
 }
 .feature-img{
     padding: 4rem 2rem;
