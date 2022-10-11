@@ -61,7 +61,7 @@ h1,h2,h3{
     letter-spacing: 2px;
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 0 2em;
+    padding: 0 1rem;
     text-decoration: none;
     font-family:"montserrat-light";
 }
@@ -238,7 +238,7 @@ h1,h2,h3{
    text-align:center;
 } 
 .feature-icon {
-    margin:0 10rem;
+    margin:0 40%;
 }
 #Feature .container-fluid{
     padding: 7% 3%;
@@ -275,7 +275,7 @@ h1,h2,h3{
     letter-spacing: 2px;
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 0 2em;
+    padding: 0 1rem;
     text-decoration: none;
     font-family:"montserrat-light";
 }
@@ -289,6 +289,9 @@ h1,h2,h3{
     color:rgb(12, 12, 75) ;
     background-color: white;
     padding:2rem ;
+}
+.part{
+    display:flex;
 }
  #footer p{
     color:rgb(12, 12, 75) ;
