@@ -239,10 +239,9 @@ h1,h2,h3{
     margin:0 40%;
 }
 .feature-text{
-    padding:0 4rem;
+    margin:35%;
 }
-.feature-text1{
-    padding:0 7rem;
+
 }
 #Feature .container-fluid{
     padding: 7% 3%;
