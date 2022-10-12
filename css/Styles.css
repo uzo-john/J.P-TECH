@@ -111,9 +111,7 @@ h1,h2,h3{
     position: relative;
     border-radius: 25px;
 }
-.page-title{
-    padding: 2rem;
-}
+
 .hero {
     animation:waveanim 3s linear infinite alternate;
     color:rgb(12, 12, 75) ;
@@ -239,6 +237,12 @@ h1,h2,h3{
 } 
 .feature-icon {
     margin:0 40%;
+}
+.feature-text{
+    padding:0 4rem;
+}
+.feature-text1{
+    padding:0 7rem;
 }
 #Feature .container-fluid{
     padding: 7% 3%;
